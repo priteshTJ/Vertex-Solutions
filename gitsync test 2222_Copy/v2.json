@@ -312,7 +312,7 @@
               },
               "validation": {},
               "createdAt": "2025-02-18T20:32:55.266Z",
-              "updatedAt": "2025-02-18T20:32:55.266Z",
+              "updatedAt": "2025-02-18T20:32:58.577Z",
               "layouts": [
                 {
                   "id": "202f6877-b7aa-4620-9aa1-9cc8649e5524",
@@ -517,17 +517,6 @@
               "updatedAt": "2025-02-18T20:32:55.266Z",
               "layouts": [
                 {
-                  "id": "b8a9233c-164b-4306-a479-8e15b0c9dcff",
-                  "type": "desktop",
-                  "top": 80,
-                  "left": 37,
-                  "width": 4,
-                  "height": 40,
-                  "componentId": "d4d54333-7b38-41a7-a650-2d3ef7f81f05",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2025-02-18T20:32:55.266Z"
-                },
-                {
                   "id": "647cff76-99c7-4db0-b4f1-7f0c841bbcd1",
                   "type": "mobile",
                   "top": 80,
@@ -537,6 +526,17 @@
                   "componentId": "d4d54333-7b38-41a7-a650-2d3ef7f81f05",
                   "dimensionUnit": "count",
                   "updatedAt": "2025-02-18T20:32:55.266Z"
+                },
+                {
+                  "id": "b8a9233c-164b-4306-a479-8e15b0c9dcff",
+                  "type": "desktop",
+                  "top": 80,
+                  "left": 21,
+                  "width": 4,
+                  "height": 40,
+                  "componentId": "d4d54333-7b38-41a7-a650-2d3ef7f81f05",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-02-18T20:33:42.207Z"
                 }
               ]
             }
