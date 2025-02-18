@@ -5,7 +5,7 @@
         "appV2": {
           "type": "front-end",
           "id": "30c89cc7-4b26-4b73-b28e-6a602d7817fb",
-          "name": "gitsync test 2",
+          "name": "gitsync test 2222",
           "slug": "30c89cc7-4b26-4b73-b28e-6a602d7817fb",
           "isPublic": false,
           "isMaintenanceOn": false,
@@ -17,7 +17,7 @@
           "workflowEnabled": false,
           "createdAt": "2025-02-18T20:19:56.937Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-02-18T20:24:49.471Z",
+          "updatedAt": "2025-02-18T20:25:26.824Z",
           "editingVersion": {
             "id": "b36eee99-8ceb-470a-b53c-eea7ba73daf1",
             "name": "v1",
