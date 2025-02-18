@@ -9,10 +9,10 @@
   },
   "36106a64-7aec-4a83-bb7e-68ed06ce4bcc": {
     "gitAppName": "gitsync test 2222_Copy",
-    "lastCommitMessage": "new app",
-    "gitVersionId": "2322cef1-9cfc-4bcf-9e3d-8f0606386393",
-    "lastpushDate": "2025-02-18T20:29:56.573Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Version v2 Created of app gitsync test 2222_Copy",
+    "gitVersionId": "1b09133b-97dd-4da2-aba8-d21160b01a33",
+    "lastpushDate": "2025-02-18T20:32:58.601Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "pritesh "
   }
 }
