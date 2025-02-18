@@ -14,5 +14,13 @@
     "lastpushDate": "2025-02-18T20:35:52.205Z",
     "gitVersionName": "v3",
     "lastCommitUser": "pritesh "
+  },
+  "87bd1a03-0b52-453f-b69d-38acd3f13c5e": {
+    "gitAppName": "AI ats",
+    "lastCommitMessage": "App AI ats created",
+    "gitVersionId": "24590156-2586-4b89-9dca-5de9a1c47371",
+    "lastpushDate": "2025-02-18T20:42:57.901Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "pritesh "
   }
 }
