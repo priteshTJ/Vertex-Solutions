@@ -142,8 +142,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2025-02-23T21:33:06.254Z",
           "editingVersion": {
-            "id": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-            "name": "v2",
+            "id": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+            "name": "v3",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -164,20 +164,20 @@
               }
             },
             "showViewerNavigation": true,
-            "homePageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
+            "homePageId": "b856a6d6-5182-426d-93d7-b42158542f36",
             "appId": "7330b16b-b70d-4d9b-b83d-227414a690f0",
             "currentEnvironmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
             "promotedFrom": null,
-            "createdAt": "2025-02-23T21:36:57.412Z",
-            "updatedAt": "2025-02-23T21:36:57.368Z"
+            "createdAt": "2025-02-24T20:38:42.756Z",
+            "updatedAt": "2025-02-24T20:38:42.717Z"
           },
           "components": [
             {
-              "id": "06909917-4845-455c-acd0-f041aecafaab",
+              "id": "f9e3c71a-0c0c-40e6-ac0c-b404f30b9db4",
               "name": "text2",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -266,28 +266,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "4dcc4db3-fbee-4719-8675-4320cd3de1b0",
+                  "id": "6ad952a5-4eec-4877-be12-97a7fef9ebb4",
                   "type": "desktop",
                   "top": 10,
                   "left": 1,
                   "width": 9,
                   "height": 30,
-                  "componentId": "06909917-4845-455c-acd0-f041aecafaab",
+                  "componentId": "f9e3c71a-0c0c-40e6-ac0c-b404f30b9db4",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "39655cd3-2cb6-4a22-af0f-35fd11229c55",
+              "id": "01ff9ad8-7d3a-494c-b8c3-e44fe1c7e17f",
               "name": "text3",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -377,28 +377,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "d5cc4c31-9af6-45be-a4f0-bcb199da10a4",
+                  "id": "d1b89191-4b6f-419d-a435-562e11771fc7",
                   "type": "desktop",
                   "top": 40.00006103515625,
                   "left": 1,
                   "width": 9,
                   "height": 40,
-                  "componentId": "39655cd3-2cb6-4a22-af0f-35fd11229c55",
+                  "componentId": "01ff9ad8-7d3a-494c-b8c3-e44fe1c7e17f",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "4a87b850-1147-4da7-b34d-5fa5d287058c",
+              "id": "811e67b9-8eae-461f-9de5-2291493d391e",
               "name": "text4",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -487,28 +487,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "1cf91d1e-71e0-4e8f-8fb8-219a2b565140",
+                  "id": "78dcda90-5ae6-4f35-ad70-da1da7c076fb",
                   "type": "desktop",
                   "top": 10.00006103515625,
                   "left": 12,
                   "width": 9,
                   "height": 30,
-                  "componentId": "4a87b850-1147-4da7-b34d-5fa5d287058c",
+                  "componentId": "811e67b9-8eae-461f-9de5-2291493d391e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "53fd6894-d0ab-4117-b330-f6051eecfb1f",
+              "id": "6a458382-cec7-4770-b01c-6a843ab3574d",
               "name": "text5",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -597,28 +597,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "04183dfd-c1b4-4e50-9954-7eaee9a66abe",
+                  "id": "c4180a99-6ddc-47b6-b850-82fc8ccd34c7",
                   "type": "desktop",
                   "top": 10,
                   "left": 23,
                   "width": 9,
                   "height": 30,
-                  "componentId": "53fd6894-d0ab-4117-b330-f6051eecfb1f",
+                  "componentId": "6a458382-cec7-4770-b01c-6a843ab3574d",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "1adad45b-b085-48fc-9101-f20d7b1ebac2",
+              "id": "52f9e847-75c1-4524-b4b0-de2124b50f5c",
               "name": "text6",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -708,28 +708,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "17d788df-d484-4da6-b39e-e49479359811",
+                  "id": "18277480-bcbe-43e0-ad20-df80f8403200",
                   "type": "desktop",
                   "top": 40.000030517578125,
                   "left": 12,
                   "width": 9,
                   "height": 40,
-                  "componentId": "1adad45b-b085-48fc-9101-f20d7b1ebac2",
+                  "componentId": "52f9e847-75c1-4524-b4b0-de2124b50f5c",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "ff06ba1b-c484-4b87-aa74-53fc3ce5c9ed",
+              "id": "a5fee30e-1fbc-4a60-a36c-f6aff0925853",
               "name": "text7",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -819,27 +819,27 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "9d427c46-0eca-4b49-8ec7-e53e8d85573d",
+                  "id": "e09ab094-c5a8-4fd8-b898-8df44be90518",
                   "type": "desktop",
                   "top": 40.00006103515625,
                   "left": 23,
                   "width": 9,
                   "height": 40,
-                  "componentId": "ff06ba1b-c484-4b87-aa74-53fc3ce5c9ed",
+                  "componentId": "a5fee30e-1fbc-4a60-a36c-f6aff0925853",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "4428bfe6-caa9-4f36-975a-517259dc996f",
+              "id": "9213da61-7d64-4ade-a99c-a6771d6e4db0",
               "name": "container1",
               "type": "Container",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
               "parent": null,
               "properties": {
                 "visible": {
@@ -884,28 +884,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "e7d20e96-0ac9-4670-8e1e-2fea21eacc89",
+                  "id": "1288badf-a62c-404a-a256-349aa81f0354",
                   "type": "desktop",
                   "top": 20,
                   "left": 1,
                   "width": 41,
                   "height": 180,
-                  "componentId": "4428bfe6-caa9-4f36-975a-517259dc996f",
+                  "componentId": "9213da61-7d64-4ade-a99c-a6771d6e4db0",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "id": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "name": "container2",
               "type": "Container",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "4428bfe6-caa9-4f36-975a-517259dc996f",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "9213da61-7d64-4ade-a99c-a6771d6e4db0",
               "properties": {
                 "visible": {
                   "value": "{{true}}"
@@ -947,28 +947,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "6766e5a4-e488-44ac-b56a-f508f4a3c1c4",
+                  "id": "29002240-fb48-4d6c-a8be-cb0b4281974e",
                   "type": "desktop",
                   "top": 59.99997329711914,
                   "left": 23,
                   "width": 19,
                   "height": 100,
-                  "componentId": "97f7da50-4b41-451d-8767-21c30c4651c3",
+                  "componentId": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "4314d74b-118a-4eb0-b990-ddc4d00b9730",
+              "id": "14328478-66a3-41c7-97af-f6b59478f923",
               "name": "button1",
               "type": "Button",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "4428bfe6-caa9-4f36-975a-517259dc996f",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "9213da61-7d64-4ade-a99c-a6771d6e4db0",
               "properties": {
                 "text": {
                   "value": "Add new product"
@@ -1039,28 +1039,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "b30882c4-1595-478f-b8ee-1049075ea2c4",
+                  "id": "0b96a057-0724-4bf0-83f7-6d72c04ddb6b",
                   "type": "desktop",
                   "top": 120,
                   "left": 1,
                   "width": 7,
                   "height": 40,
-                  "componentId": "4314d74b-118a-4eb0-b990-ddc4d00b9730",
+                  "componentId": "14328478-66a3-41c7-97af-f6b59478f923",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "4852867e-d1c6-44cd-9631-783964e41b84",
+              "id": "a70a5b4c-f46f-41c8-a61d-92d0eaf4a63e",
               "name": "text1",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "4428bfe6-caa9-4f36-975a-517259dc996f",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "9213da61-7d64-4ade-a99c-a6771d6e4db0",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -1149,28 +1149,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "c133e6f6-700e-4a8b-9e6f-43a5dbd39381",
+                  "id": "c1cb94f3-d26b-4f87-aef8-92453ae9bbf9",
                   "type": "desktop",
                   "top": 10,
                   "left": 1,
                   "width": 4,
                   "height": 50,
-                  "componentId": "4852867e-d1c6-44cd-9631-783964e41b84",
+                  "componentId": "a70a5b4c-f46f-41c8-a61d-92d0eaf4a63e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "2ffc71ea-b24b-4be0-a7ce-2af42eac2543",
+              "id": "795d78e4-090a-46b3-b704-fef4792beb2e",
               "name": "text8",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -1259,28 +1259,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "fafaecef-51b4-4ca0-aa47-3649d22e7061",
+                  "id": "13751c3b-8559-441c-9cbc-f92177f7dd82",
                   "type": "desktop",
                   "top": 10,
                   "left": 34,
                   "width": 8,
                   "height": 30,
-                  "componentId": "2ffc71ea-b24b-4be0-a7ce-2af42eac2543",
+                  "componentId": "795d78e4-090a-46b3-b704-fef4792beb2e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "61d220e0-28d8-4b02-a45a-a5e64a1541a4",
+              "id": "9e4f24e7-c93b-47da-92f5-a6797e5c5b66",
               "name": "text9",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "97f7da50-4b41-451d-8767-21c30c4651c3",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "0e6a55a8-5bc7-4cd3-ae8d-95757d064249",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -1370,28 +1370,28 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "eca97bb3-50eb-46cd-9280-2d6ae8372381",
+                  "id": "5425002b-3aa3-48d0-bf2c-7056b53b07fd",
                   "type": "desktop",
                   "top": 40.00006103515625,
                   "left": 34,
                   "width": 8,
                   "height": 40,
-                  "componentId": "61d220e0-28d8-4b02-a45a-a5e64a1541a4",
+                  "componentId": "9e4f24e7-c93b-47da-92f5-a6797e5c5b66",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "d2171341-0bc7-4275-aacc-73fe8c7f9365",
+              "id": "37c6acaf-12b7-4dfc-ad4a-2f10b1b26743",
               "name": "text10",
               "type": "Text",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
-              "parent": "4428bfe6-caa9-4f36-975a-517259dc996f",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
+              "parent": "9213da61-7d64-4ade-a99c-a6771d6e4db0",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -1480,27 +1480,27 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "a5affe47-8445-486a-8efc-9ac8279cbda7",
+                  "id": "6dc9c59d-e85b-48ee-abbc-f51425621cc8",
                   "type": "desktop",
                   "top": 10,
                   "left": 23,
                   "width": 19,
                   "height": 50,
-                  "componentId": "d2171341-0bc7-4275-aacc-73fe8c7f9365",
+                  "componentId": "37c6acaf-12b7-4dfc-ad4a-2f10b1b26743",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             },
             {
-              "id": "36065be8-886b-4ff8-bce1-f4efaebce89c",
+              "id": "9de04e6c-ab7f-4fcf-b9c6-3fa25f100c89",
               "name": "table1",
               "type": "Table",
-              "pageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
+              "pageId": "b856a6d6-5182-426d-93d7-b42158542f36",
               "parent": null,
               "properties": {
                 "title": {
@@ -1834,36 +1834,36 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z",
               "layouts": [
                 {
-                  "id": "5c54fe21-3252-44f9-ae94-c76c8856cc22",
+                  "id": "6e81b457-6250-4629-a49d-90b822e0cae8",
                   "type": "desktop",
                   "top": 220,
                   "left": 1,
                   "width": 41,
                   "height": 500,
-                  "componentId": "36065be8-886b-4ff8-bce1-f4efaebce89c",
+                  "componentId": "9de04e6c-ab7f-4fcf-b9c6-3fa25f100c89",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-02-23T21:36:57.368Z"
+                  "updatedAt": "2025-02-24T20:38:42.717Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
+              "id": "b856a6d6-5182-426d-93d7-b42158542f36",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": false,
               "hidden": false,
               "icon": null,
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:58.896Z",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:44.134Z",
               "autoComputeLayout": false,
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false
@@ -1871,7 +1871,7 @@
           ],
           "events": [
             {
-              "id": "196fe198-9155-49eb-8691-8213e2430c23",
+              "id": "9307ded7-6306-4544-8ff9-adce2b8c80e4",
               "name": "onSearch",
               "index": 0,
               "event": {
@@ -1882,14 +1882,14 @@
                 "queryName": "tooljetdbGetProducts",
                 "parameters": {}
               },
-              "sourceId": "36065be8-886b-4ff8-bce1-f4efaebce89c",
+              "sourceId": "9de04e6c-ab7f-4fcf-b9c6-3fa25f100c89",
               "target": "component",
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "7538dcdc-3446-4477-9e46-81b22a7f78fd",
+              "id": "0c34fda6-2f29-442a-8ad0-74dce886ec90",
               "name": "onClick",
               "index": 0,
               "event": {
@@ -1899,14 +1899,14 @@
                 "actionId": "show-modal",
                 "alertType": "info"
               },
-              "sourceId": "36065be8-886b-4ff8-bce1-f4efaebce89c",
+              "sourceId": "9de04e6c-ab7f-4fcf-b9c6-3fa25f100c89",
               "target": "table_action",
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "e87d78c9-2c9a-489d-8aea-0d851e9efd04",
+              "id": "eb905fba-7925-48e3-bb8d-74d2b5476bd9",
               "name": "onClick",
               "index": 0,
               "event": {
@@ -1916,42 +1916,42 @@
                 "actionId": "show-modal",
                 "alertType": "info"
               },
-              "sourceId": "36065be8-886b-4ff8-bce1-f4efaebce89c",
+              "sourceId": "9de04e6c-ab7f-4fcf-b9c6-3fa25f100c89",
               "target": "table_action",
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             }
           ],
           "dataQueries": [
             {
-              "id": "5c20f48e-af27-405d-99c1-7877b2761ee4",
+              "id": "e9f1263a-c4ed-4340-9566-8e5bb69ca0e6",
               "name": "colorPalette",
               "options": {
                 "code": "colorDirectory = {\n  btnPrimaryBg: \"#5079ffff\",\n  btnPrimaryBorder: \"#ffffff00\",\n  btnPrimaryText: \"#ffffffff\",\n  btnSecondaryBg: \"#ffffffb3\",\n  btnSecondaryBorder: \"#5079ffff\",\n  btnSecondaryText: \"#5079ffff\",\n  main: \"#3e63ddff\",\n  modalBodyBg: \"#ffffff00\",\n  modalHeaderBg: \"#3e63ddff\",\n  modalHeaderText: \"#ffffffff\",\n  navbarBg: \"#3e63ddff\",\n  navbarBtnBg: \"#ffffff1a\",\n  navbarBtnBorder: \"#ffffffff\",\n  navbarBtnText: \"#ffffffff\",\n  navbarText: \"#ffffffff\",\n  tabHighlight: \"#3e63ddff\",\n};\n\nreturn colorDirectory;",
                 "parameters": [],
                 "runOnPageLoad": true
               },
-              "dataSourceId": "7225ec03-de78-4229-b519-74507bd85983",
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "dataSourceId": "598623a5-2c53-4d5b-adc9-1ee4743fb072",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "b525e1ce-231c-4775-b169-621b464d74e8",
+              "id": "f43af362-387e-4363-b380-db5689590694",
               "name": "getProductStats",
               "options": {
                 "code": "totalQty = 0;\ninStockQty = 0;\nlowInStock = 0;\noutOfStock = 0;\nyetToReceive = 0;\n\nqueries.tooljetdbGetProducts.data.forEach((product) => {\n  totalQty += product.quantity;\n  inStockQty += product.status == \"in_stock\" ? product.quantity : 0;\n  yetToReceive += product.status == \"yet_to_receive\" ? product.quantity : 0;\n  lowInStock += product.quantity <= 10 && product.quantity > 0 ? 1 : 0;\n  outOfStock += product.quantity == 0 ? 1 : 0;\n});\n\nreturn {\n  quantityInTotal: totalQty,\n  quantityInStock: inStockQty,\n  quantityYetToReceive: yetToReceive,\n  lowInStock: lowInStock,\n  outOfStock: outOfStock,\n};",
                 "parameters": [],
                 "runOnPageLoad": true
               },
-              "dataSourceId": "7225ec03-de78-4229-b519-74507bd85983",
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "dataSourceId": "598623a5-2c53-4d5b-adc9-1ee4743fb072",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "d16b0710-58b8-4eab-b8c2-b6f8ed514627",
+              "id": "2eb34bf7-ef7e-45ad-8c63-5ea659cf18c6",
               "name": "tooljetdbGetProducts",
               "options": {
                 "operation": "list_rows",
@@ -2028,78 +2028,78 @@
                 "runOnPageLoad": true,
                 "organization_id": "3695795b-71c8-4096-8feb-fa2ff3104b02"
               },
-              "dataSourceId": "9231e294-1a6d-4194-8495-e501b4d1273d",
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:37:01.078Z"
+              "dataSourceId": "cf563031-cebd-47d4-86bb-72d987fbcbeb",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:46.387Z"
             }
           ],
           "dataSources": [
             {
-              "id": "d5283576-3545-4ac8-a7a5-000e24a77c23",
+              "id": "fb20b410-1013-47d1-9f93-7b58b08d64d1",
               "name": "restapidefault",
               "kind": "restapi",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "7225ec03-de78-4229-b519-74507bd85983",
+              "id": "598623a5-2c53-4d5b-adc9-1ee4743fb072",
               "name": "runjsdefault",
               "kind": "runjs",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "b5a7177a-3279-4360-8ac4-c4f96890d5e6",
+              "id": "67f1a04c-82e9-4cd8-8ada-eafa5dc42e4b",
               "name": "runpydefault",
               "kind": "runpy",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "9231e294-1a6d-4194-8495-e501b4d1273d",
+              "id": "cf563031-cebd-47d4-86bb-72d987fbcbeb",
               "name": "tooljetdbdefault",
               "kind": "tooljetdb",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "d66c91d9-9678-4ca8-bc8d-436b8dd3d494",
+              "id": "39715eaa-d5ca-484c-af25-0776659e59c1",
               "name": "workflowsdefault",
               "kind": "workflows",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b46cd533-a028-4b02-a7a4-9e7094439bea",
+              "appVersionId": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             }
           ],
           "appVersions": [
             {
-              "id": "b46cd533-a028-4b02-a7a4-9e7094439bea",
-              "name": "v2",
+              "id": "07a94c50-d731-4c44-a205-2d2f4c159a5f",
+              "name": "v3",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -2120,12 +2120,12 @@
                 }
               },
               "showViewerNavigation": true,
-              "homePageId": "87d9da5e-8ed2-4b5c-b790-c2e4305e49ee",
+              "homePageId": "b856a6d6-5182-426d-93d7-b42158542f36",
               "appId": "7330b16b-b70d-4d9b-b83d-227414a690f0",
               "currentEnvironmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "promotedFrom": null,
-              "createdAt": "2025-02-23T21:36:57.412Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.756Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             }
           ],
           "appEnvironments": [
@@ -2162,124 +2162,124 @@
           ],
           "dataSourceOptions": [
             {
-              "id": "add3aec1-72a1-4a55-b46d-e9a948fb9dcf",
-              "dataSourceId": "7225ec03-de78-4229-b519-74507bd85983",
+              "id": "0d5fdd46-d773-4d57-b565-2475cfce2b49",
+              "dataSourceId": "39715eaa-d5ca-484c-af25-0776659e59c1",
               "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "ede7da0e-e5df-418a-b9aa-7247d10e5b3e",
-              "dataSourceId": "7225ec03-de78-4229-b519-74507bd85983",
+              "id": "8519bbbf-ce92-44fd-9593-588e6baf1ac0",
+              "dataSourceId": "39715eaa-d5ca-484c-af25-0776659e59c1",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "de6b8bec-f221-4339-87fe-e31a862d33a4",
-              "dataSourceId": "7225ec03-de78-4229-b519-74507bd85983",
+              "id": "8f5ed6b6-1d0d-4f4c-9b8b-15f2ed3168d0",
+              "dataSourceId": "39715eaa-d5ca-484c-af25-0776659e59c1",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "7710599f-3baa-4b89-bf78-050351e48e8a",
-              "dataSourceId": "9231e294-1a6d-4194-8495-e501b4d1273d",
+              "id": "d59b7c1f-1af0-4bdf-8c89-f202c4821573",
+              "dataSourceId": "598623a5-2c53-4d5b-adc9-1ee4743fb072",
               "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "3e39d934-1394-40fe-adab-0b5d9b1cf4cb",
-              "dataSourceId": "9231e294-1a6d-4194-8495-e501b4d1273d",
+              "id": "d275c276-62ff-457e-9475-8cf0ee4db3b1",
+              "dataSourceId": "598623a5-2c53-4d5b-adc9-1ee4743fb072",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "21c78623-0297-4db2-bab3-405e33d5bb82",
-              "dataSourceId": "9231e294-1a6d-4194-8495-e501b4d1273d",
+              "id": "95aaaf4b-88e4-48e4-beb5-c36261f97bb0",
+              "dataSourceId": "598623a5-2c53-4d5b-adc9-1ee4743fb072",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "a08fb643-275e-4660-acad-4127b1788f49",
-              "dataSourceId": "b5a7177a-3279-4360-8ac4-c4f96890d5e6",
+              "id": "4e0a87ca-75c5-44ed-be89-616f7550a4e8",
+              "dataSourceId": "67f1a04c-82e9-4cd8-8ada-eafa5dc42e4b",
               "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "b91a6310-a5fb-4065-9e0a-40299ebaae6d",
-              "dataSourceId": "b5a7177a-3279-4360-8ac4-c4f96890d5e6",
+              "id": "cea4bde4-20fd-4e02-94c6-e3aec227db9b",
+              "dataSourceId": "67f1a04c-82e9-4cd8-8ada-eafa5dc42e4b",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "10579761-fa6f-414f-b4c2-706e4afbd6be",
-              "dataSourceId": "b5a7177a-3279-4360-8ac4-c4f96890d5e6",
+              "id": "a02c5f59-3aa6-49f3-94cc-e19cb56abb78",
+              "dataSourceId": "67f1a04c-82e9-4cd8-8ada-eafa5dc42e4b",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "0f1f9a80-73a0-4ecf-b49e-fa18ddbb7755",
-              "dataSourceId": "d5283576-3545-4ac8-a7a5-000e24a77c23",
+              "id": "838acc1c-efff-4877-8658-ba7a515d0ebd",
+              "dataSourceId": "cf563031-cebd-47d4-86bb-72d987fbcbeb",
               "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "7dc760be-cca0-48c6-8205-24ae5474a754",
-              "dataSourceId": "d5283576-3545-4ac8-a7a5-000e24a77c23",
+              "id": "8bacba3e-e9cc-469a-914d-6239cdb3edee",
+              "dataSourceId": "cf563031-cebd-47d4-86bb-72d987fbcbeb",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "f919e2ac-df7b-4c20-8244-927d32fe4af0",
-              "dataSourceId": "d5283576-3545-4ac8-a7a5-000e24a77c23",
+              "id": "1d66eab1-8a57-42dd-8f10-20c694a42bd4",
+              "dataSourceId": "cf563031-cebd-47d4-86bb-72d987fbcbeb",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "60a83a3d-5e53-40f1-8fa7-824da760de0b",
-              "dataSourceId": "d66c91d9-9678-4ca8-bc8d-436b8dd3d494",
+              "id": "1b78bc3a-5e90-4083-88c3-0d198d9893d3",
+              "dataSourceId": "fb20b410-1013-47d1-9f93-7b58b08d64d1",
               "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "92c7ebfb-d4e7-492d-8cdf-c4d1b31f2b3d",
-              "dataSourceId": "d66c91d9-9678-4ca8-bc8d-436b8dd3d494",
+              "id": "2610deb1-5661-4202-97f9-01b076756cf2",
+              "dataSourceId": "fb20b410-1013-47d1-9f93-7b58b08d64d1",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             },
             {
-              "id": "9e820a4a-57bd-43a7-8db3-5f0d85d9b889",
-              "dataSourceId": "d66c91d9-9678-4ca8-bc8d-436b8dd3d494",
+              "id": "e08e3134-9d8a-409f-b903-1d1a34e3fd47",
+              "dataSourceId": "fb20b410-1013-47d1-9f93-7b58b08d64d1",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-02-23T21:36:57.368Z",
-              "updatedAt": "2025-02-23T21:36:57.368Z"
+              "createdAt": "2025-02-24T20:38:42.717Z",
+              "updatedAt": "2025-02-24T20:38:42.717Z"
             }
           ],
           "schemaDetails": {
