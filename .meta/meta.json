@@ -14,5 +14,13 @@
     "lastpushDate": "2025-02-24T20:38:47.516Z",
     "gitVersionName": "v3",
     "lastCommitUser": "pritesh "
+  },
+  "15974cd7-ce08-4aec-a88b-c72e149b86bc": {
+    "gitAppName": "fg",
+    "lastCommitMessage": " v1 Version of app fg promoted from development to staging",
+    "gitVersionId": "a084bcdc-85c1-4202-a578-0bbf1c294301",
+    "lastpushDate": "2025-04-07T12:10:58.348Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "pritesh "
   }
 }
