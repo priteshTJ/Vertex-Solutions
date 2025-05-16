@@ -24,10 +24,10 @@
     "lastCommitUser": "pritesh "
   },
   "0122b596-26e4-41bd-bd4c-9792997faa07": {
-    "gitAppName": "dfsdf",
-    "lastCommitMessage": " v1 Version of app dfsdf promoted from development to staging",
+    "gitAppName": "test slack",
+    "lastCommitMessage": "App dfsdf  is renamed to dfsdf",
     "gitVersionId": "053c51ac-f147-4e75-a685-b3daa15e6e6a",
-    "lastpushDate": "2025-05-16T07:05:11.145Z",
+    "lastpushDate": "2025-05-16T10:54:50.917Z",
     "gitVersionName": "v1",
     "lastCommitUser": "pritesh "
   }

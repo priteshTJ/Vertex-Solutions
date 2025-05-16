@@ -114,7 +114,7 @@
         "appV2": {
           "type": "front-end",
           "id": "0122b596-26e4-41bd-bd4c-9792997faa07",
-          "name": "dfsdf",
+          "name": "test slack",
           "slug": "0122b596-26e4-41bd-bd4c-9792997faa07",
           "isPublic": false,
           "isMaintenanceOn": false,
@@ -126,10 +126,10 @@
           "workflowEnabled": false,
           "createdAt": "2025-05-05T10:06:26.864Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-05-05T10:06:26.863Z",
+          "updatedAt": "2025-05-16T10:54:46.159Z",
           "editingVersion": {
-            "id": "053c51ac-f147-4e75-a685-b3daa15e6e6a",
-            "name": "v1",
+            "id": "b474f058-1be4-44e3-bd60-a7d551c70841",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -143,12 +143,12 @@
             },
             "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "cfef27d3-888b-4c71-b671-1e3f639a24fa",
+            "homePageId": "a04f63e6-353a-47ee-a293-8f1eef336177",
             "appId": "0122b596-26e4-41bd-bd4c-9792997faa07",
-            "currentEnvironmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+            "currentEnvironmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
             "promotedFrom": null,
-            "createdAt": "2025-05-05T10:06:26.871Z",
-            "updatedAt": "2025-05-16T07:05:08.142Z"
+            "createdAt": "2025-05-16T07:07:36.095Z",
+            "updatedAt": "2025-05-16T07:07:36.053Z"
           },
           "components": [
             {
