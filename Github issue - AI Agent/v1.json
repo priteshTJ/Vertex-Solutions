@@ -114,7 +114,7 @@
         "appV2": {
           "type": "front-end",
           "id": "0122b596-26e4-41bd-bd4c-9792997faa07",
-          "name": "test slack",
+          "name": "Github issue - AI Agent",
           "slug": "0122b596-26e4-41bd-bd4c-9792997faa07",
           "isPublic": false,
           "isMaintenanceOn": false,
@@ -126,7 +126,7 @@
           "workflowEnabled": false,
           "createdAt": "2025-05-05T10:06:26.864Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-05-16T10:54:46.159Z",
+          "updatedAt": "2025-05-23T10:34:06.049Z",
           "editingVersion": {
             "id": "b474f058-1be4-44e3-bd60-a7d551c70841",
             "name": "v2",
@@ -619,5 +619,5 @@
       }
     }
   ],
-  "tooljet_version": "3.5.29-cloud-lts"
+  "tooljet_version": "3.5.30-cloud-lts"
 }
