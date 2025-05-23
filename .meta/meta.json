@@ -25,10 +25,10 @@
   },
   "0122b596-26e4-41bd-bd4c-9792997faa07": {
     "gitAppName": "Github issue - AI Agent",
-    "lastCommitMessage": "App test slack  is renamed to test slack",
-    "gitVersionId": "053c51ac-f147-4e75-a685-b3daa15e6e6a",
-    "lastpushDate": "2025-05-23T10:34:07.307Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v2 Version of app Github issue - AI Agent promoted from development to staging",
+    "gitVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
+    "lastpushDate": "2025-05-23T15:42:40.469Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "pritesh "
   }
 }
