@@ -116,20 +116,20 @@
           "id": "0122b596-26e4-41bd-bd4c-9792997faa07",
           "name": "Github issue - AI Agent",
           "slug": "0122b596-26e4-41bd-bd4c-9792997faa07",
-          "isPublic": false,
+          "isPublic": true,
           "isMaintenanceOn": false,
           "icon": "home",
           "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
-          "currentVersionId": null,
+          "currentVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
           "userId": "59ed4eec-9be7-4369-8788-c0e82b428cbc",
           "workflowApiToken": null,
           "workflowEnabled": false,
           "createdAt": "2025-05-05T10:06:26.864Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-05-23T10:34:06.049Z",
+          "updatedAt": "2025-05-23T15:51:21.615Z",
           "editingVersion": {
-            "id": "b474f058-1be4-44e3-bd60-a7d551c70841",
-            "name": "v2",
+            "id": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+            "name": "v3",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -141,21 +141,28 @@
               "backgroundFxQuery": "",
               "appMode": "auto"
             },
-            "pageSettings": null,
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{true}}",
+                  "fxActive": false
+                }
+              }
+            },
             "showViewerNavigation": true,
-            "homePageId": "a04f63e6-353a-47ee-a293-8f1eef336177",
+            "homePageId": "07c45550-9f9d-4382-8f61-c68ab1505e2d",
             "appId": "0122b596-26e4-41bd-bd4c-9792997faa07",
             "currentEnvironmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
             "promotedFrom": null,
-            "createdAt": "2025-05-16T07:07:36.095Z",
-            "updatedAt": "2025-05-23T15:42:37.371Z"
+            "createdAt": "2025-05-23T15:51:58.178Z",
+            "updatedAt": "2025-05-23T15:52:14.228Z"
           },
           "components": [
             {
-              "id": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+              "id": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
               "name": "chat1",
               "type": "Chat",
-              "pageId": "a04f63e6-353a-47ee-a293-8f1eef336177",
+              "pageId": "07c45550-9f9d-4382-8f61-c68ab1505e2d",
               "parent": null,
               "properties": {
                 "chatTitle": {
@@ -186,7 +193,7 @@
                   "value": "{{false}}"
                 },
                 "loadingResponse": {
-                  "value": "{{queries.65a094ca-472c-4371-9abc-c0cd6954bd7b.isLoading || queries.ec1bc793-77d0-4e7b-9921-89b57c48b4a1.isLoading || queries.941866a2-42e8-4e23-b968-7c1780806eb6.isLoading || queries.635b771f-869b-46b4-819e-de72468618df.isLoading || queries.15389299-8d6d-4337-ba8b-1bac2067eec3.isLoading || queries.8c797805-951d-4f5a-8034-f8d756375e53.isLoading || queries.a6fa5833-7657-47dd-85fc-0677044515d9.isLoading}}",
+                  "value": "{{queries.a0d6ffa8-7748-499a-9402-058b25e2121e.isLoading || queries.c1064bd4-8c7f-471a-9c77-1bcee322393d.isLoading || queries.1121c338-1d38-409b-83bc-1585ee4afbe1.isLoading || queries.4f1d516d-fac1-4dd7-9b99-8569e7c6d9a9.isLoading || queries.e63188b2-0388-4c71-a6ef-f5ee33f290b3.isLoading || queries.4109c9b0-e4aa-4d99-8f06-e925722733d7.isLoading || queries.71dd030d-b8b4-406a-868e-9c668881d978.isLoading}}",
                   "fxActive": true
                 },
                 "enableClearHistoryButton": {
@@ -249,38 +256,38 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-05-23T10:33:22.449Z",
-              "updatedAt": "2025-05-23T13:59:17.727Z",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z",
               "layouts": [
                 {
-                  "id": "3d6c45dc-52f3-4c2b-97f4-a25fd3ea367b",
+                  "id": "5b5be558-7f4b-4df3-a8c1-ff36f05c0dea",
                   "type": "desktop",
                   "top": 130,
                   "left": 1,
                   "width": 41,
                   "height": 560,
-                  "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+                  "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-05-23T13:59:19.020Z"
+                  "updatedAt": "2025-05-23T15:51:58.135Z"
                 },
                 {
-                  "id": "c4a85ff4-799b-457d-9b7f-811649077518",
+                  "id": "01219440-b3e9-4922-93de-457879c0e66b",
                   "type": "mobile",
                   "top": 40,
                   "left": 2,
                   "width": 15,
                   "height": 400,
-                  "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+                  "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-05-23T10:33:22.449Z"
+                  "updatedAt": "2025-05-23T15:51:58.135Z"
                 }
               ]
             },
             {
-              "id": "8316d3c8-9aef-4465-b773-fb3f68e7132e",
+              "id": "0872e154-b7a1-4d90-82bf-ac5aa74d688a",
               "name": "container1",
               "type": "Container",
-              "pageId": "a04f63e6-353a-47ee-a293-8f1eef336177",
+              "pageId": "07c45550-9f9d-4382-8f61-c68ab1505e2d",
               "parent": null,
               "properties": {
                 "visible": {
@@ -322,39 +329,39 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-05-23T12:15:39.559Z",
-              "updatedAt": "2025-05-23T12:15:58.250Z",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z",
               "layouts": [
                 {
-                  "id": "0661ccc8-b954-4e15-a326-b8446f08282b",
+                  "id": "94e91eaf-0b9f-47f5-b639-d1d61d97ebd7",
                   "type": "mobile",
                   "top": 20,
                   "left": 14,
                   "width": 5,
                   "height": 200,
-                  "componentId": "8316d3c8-9aef-4465-b773-fb3f68e7132e",
+                  "componentId": "0872e154-b7a1-4d90-82bf-ac5aa74d688a",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-05-23T12:15:39.559Z"
+                  "updatedAt": "2025-05-23T15:51:58.135Z"
                 },
                 {
-                  "id": "b3d0f068-51aa-4ddf-a288-38b30d2d8cb6",
+                  "id": "db73ca41-bc26-495b-9e6e-7ea10689fac0",
                   "type": "desktop",
                   "top": 20,
                   "left": 1,
                   "width": 41,
                   "height": 90,
-                  "componentId": "8316d3c8-9aef-4465-b773-fb3f68e7132e",
+                  "componentId": "0872e154-b7a1-4d90-82bf-ac5aa74d688a",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-05-23T12:15:52.232Z"
+                  "updatedAt": "2025-05-23T15:51:58.135Z"
                 }
               ]
             },
             {
-              "id": "cbf65380-997d-4ed1-851b-1da13179c742",
+              "id": "804f39d2-0ae5-433c-8b22-f2e04529fa3f",
               "name": "text1",
               "type": "Text",
-              "pageId": "a04f63e6-353a-47ee-a293-8f1eef336177",
-              "parent": "8316d3c8-9aef-4465-b773-fb3f68e7132e",
+              "pageId": "07c45550-9f9d-4382-8f61-c68ab1505e2d",
+              "parent": "0872e154-b7a1-4d90-82bf-ac5aa74d688a",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -446,47 +453,47 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-05-23T12:16:50.687Z",
-              "updatedAt": "2025-05-23T12:17:36.598Z",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z",
               "layouts": [
                 {
-                  "id": "1f8f9a9f-73ea-4542-b410-a6579a8e20c0",
+                  "id": "cb7b6e3a-c897-4a37-a4c1-ae5ad8adaa3f",
                   "type": "desktop",
                   "top": 20,
                   "left": 1,
                   "width": 16,
                   "height": 40,
-                  "componentId": "cbf65380-997d-4ed1-851b-1da13179c742",
+                  "componentId": "804f39d2-0ae5-433c-8b22-f2e04529fa3f",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-05-23T12:17:10.351Z"
+                  "updatedAt": "2025-05-23T15:51:58.135Z"
                 },
                 {
-                  "id": "bdf07b5e-ed34-4f5c-8c3a-25edd67c8942",
+                  "id": "501b1641-fa94-40cc-b2ff-f8807913d860",
                   "type": "mobile",
                   "top": 30,
                   "left": 31,
                   "width": 6,
                   "height": 40,
-                  "componentId": "cbf65380-997d-4ed1-851b-1da13179c742",
+                  "componentId": "804f39d2-0ae5-433c-8b22-f2e04529fa3f",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-05-23T12:16:50.687Z"
+                  "updatedAt": "2025-05-23T15:51:58.135Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "a04f63e6-353a-47ee-a293-8f1eef336177",
+              "id": "07c45550-9f9d-4382-8f61-c68ab1505e2d",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
               "icon": null,
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:37.263Z",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:59.440Z",
               "autoComputeLayout": false,
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false
@@ -494,26 +501,7 @@
           ],
           "events": [
             {
-              "id": "27e712f7-0824-42e2-9991-89b351659370",
-              "name": "onMessageSent",
-              "index": 0,
-              "event": {
-                "eventId": "onMessageSent",
-                "message": "Hello world!",
-                "queryId": "65a094ca-472c-4371-9abc-c0cd6954bd7b",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "sanitize",
-                "parameters": {}
-              },
-              "sourceId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
-              "target": "component",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T10:39:13.896Z",
-              "updatedAt": "2025-05-23T12:45:55.384Z"
-            },
-            {
-              "id": "53e16a0c-cb6e-424f-8fb2-622274071319",
+              "id": "8ecdec37-1c6b-4827-9e44-9c3ad2f4f0d6",
               "name": "onDataQuerySuccess",
               "index": 0,
               "event": {
@@ -522,7 +510,7 @@
                 "actionId": "control-component",
                 "alertType": "info",
                 "runOnlyIf": "",
-                "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+                "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
                 "componentSpecificActionHandle": "appendHistory",
                 "componentSpecificActionParams": [
                   {
@@ -534,106 +522,90 @@
                   }
                 ]
               },
-              "sourceId": "ec1bc793-77d0-4e7b-9921-89b57c48b4a1",
+              "sourceId": "c1064bd4-8c7f-471a-9c77-1bcee322393d",
               "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:13:10.615Z",
-              "updatedAt": "2025-05-23T11:17:39.747Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "84c5dbd7-a70f-4b3b-82c5-c06d4ee5bbb6",
-              "name": "onDataQuerySuccess",
-              "index": 1,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "941866a2-42e8-4e23-b968-7c1780806eb6",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "openai1",
-                "parameters": {}
-              },
-              "sourceId": "ec1bc793-77d0-4e7b-9921-89b57c48b4a1",
-              "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:17:41.541Z",
-              "updatedAt": "2025-05-23T11:17:50.871Z"
-            },
-            {
-              "id": "dd66622b-1068-4f19-bdd3-c598c2fb77f6",
+              "id": "10b0eb37-db61-4a5e-86b2-fb6352dda8f2",
               "name": "onDataQuerySuccess",
               "index": 0,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "actionId": "control-component",
-                "alertType": "info",
-                "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
-                "componentSpecificActionHandle": "appendHistory",
-                "componentSpecificActionParams": [
-                  {
-                    "type": "code",
-                    "value": "{{{\"message\": queries.941866a2-42e8-4e23-b968-7c1780806eb6.data,\"type\":\"response\"}}}",
-                    "handle": "message",
-                    "displayName": "Message",
-                    "defaultValue": "{{{}}}"
-                  }
-                ]
-              },
-              "sourceId": "941866a2-42e8-4e23-b968-7c1780806eb6",
-              "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:17:54.513Z",
-              "updatedAt": "2025-05-23T11:40:45.975Z"
-            },
-            {
-              "id": "d676837c-3347-4693-8452-2f0a84162c4c",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "actionId": "control-component",
-                "alertType": "info",
-                "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
-                "componentSpecificActionHandle": "appendHistory",
-                "componentSpecificActionParams": [
-                  {
-                    "type": "code",
-                    "value": "{{{\"message\": \"Slack message sent\",\"type\":\"response\"}}}",
-                    "handle": "message",
-                    "displayName": "Message",
-                    "defaultValue": "{{{}}}"
-                  }
-                ]
-              },
-              "sourceId": "a6fa5833-7657-47dd-85fc-0677044515d9",
-              "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:32:58.579Z",
-              "updatedAt": "2025-05-23T11:34:07.977Z"
-            },
-            {
-              "id": "2af84f0e-dc77-4c57-87d2-96bb727ee9cd",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "15389299-8d6d-4337-ba8b-1bac2067eec3",
+                "queryId": "e63188b2-0388-4c71-a6ef-f5ee33f290b3",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "smtp1",
                 "parameters": {}
               },
-              "sourceId": "635b771f-869b-46b4-819e-de72468618df",
+              "sourceId": "4f1d516d-fac1-4dd7-9b99-8569e7c6d9a9",
               "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:39:32.907Z",
-              "updatedAt": "2025-05-23T11:52:41.484Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "acb0a219-1001-41a9-848b-c189268ca4a1",
+              "id": "991a7137-ac33-4477-b9e9-7ff4e0cbf7c6",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "c1064bd4-8c7f-471a-9c77-1bcee322393d",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "restapi2",
+                "parameters": {}
+              },
+              "sourceId": "a0d6ffa8-7748-499a-9402-058b25e2121e",
+              "target": "data_query",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "f21f5690-cb30-4a4f-9546-fc115d4a95a8",
+              "name": "onMessageSent",
+              "index": 0,
+              "event": {
+                "eventId": "onMessageSent",
+                "message": "Hello world!",
+                "queryId": "a0d6ffa8-7748-499a-9402-058b25e2121e",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "sanitize",
+                "parameters": {}
+              },
+              "sourceId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
+              "target": "component",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "0270af1b-a09b-4f70-98f5-c113037f1991",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "1121c338-1d38-409b-83bc-1585ee4afbe1",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "openai1",
+                "parameters": {}
+              },
+              "sourceId": "c1064bd4-8c7f-471a-9c77-1bcee322393d",
+              "target": "data_query",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "de51c6dc-47fc-40ef-9cd0-f70695065209",
               "name": "onDataQuerySuccess",
               "index": 2,
               "event": {
@@ -644,7 +616,7 @@
                 "alertType": "info",
                 "queryName": "email-format",
                 "parameters": {},
-                "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+                "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
                 "componentSpecificActionHandle": "appendHistory",
                 "componentSpecificActionParams": [
                   {
@@ -656,14 +628,33 @@
                   }
                 ]
               },
-              "sourceId": "941866a2-42e8-4e23-b968-7c1780806eb6",
+              "sourceId": "1121c338-1d38-409b-83bc-1585ee4afbe1",
               "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:40:48.321Z",
-              "updatedAt": "2025-05-23T13:04:16.101Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "f931abe5-1f8b-40a7-a2ac-2b8284544841",
+              "id": "21b1ec02-9ba5-4ddd-ab18-86b99b23d582",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "4f1d516d-fac1-4dd7-9b99-8569e7c6d9a9",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "email_format",
+                "parameters": {}
+              },
+              "sourceId": "1121c338-1d38-409b-83bc-1585ee4afbe1",
+              "target": "data_query",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "3605c736-5bc8-4ad2-9ebe-4c8c399a77ea",
               "name": "onDataQuerySuccess",
               "index": 0,
               "event": {
@@ -671,7 +662,80 @@
                 "message": "Hello world!",
                 "actionId": "control-component",
                 "alertType": "info",
-                "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+                "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
+                "componentSpecificActionHandle": "appendHistory",
+                "componentSpecificActionParams": [
+                  {
+                    "type": "code",
+                    "value": "{{{\"message\": queries.1121c338-1d38-409b-83bc-1585ee4afbe1.data,\"type\":\"response\"}}}",
+                    "handle": "message",
+                    "displayName": "Message",
+                    "defaultValue": "{{{}}}"
+                  }
+                ]
+              },
+              "sourceId": "1121c338-1d38-409b-83bc-1585ee4afbe1",
+              "target": "data_query",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "98eb1f6d-5b2c-4c3f-bd54-7f21172f0e96",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "actionId": "control-component",
+                "alertType": "info",
+                "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
+                "componentSpecificActionHandle": "appendHistory",
+                "componentSpecificActionParams": [
+                  {
+                    "type": "code",
+                    "value": "{{{\"message\": \"Slack message sent\",\"type\":\"response\"}}}",
+                    "handle": "message",
+                    "displayName": "Message",
+                    "defaultValue": "{{{}}}"
+                  }
+                ]
+              },
+              "sourceId": "71dd030d-b8b4-406a-868e-9c668881d978",
+              "target": "data_query",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "5f44a248-9e2c-4870-9413-7be2f835fd44",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "71dd030d-b8b4-406a-868e-9c668881d978",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "slack1",
+                "parameters": {}
+              },
+              "sourceId": "4109c9b0-e4aa-4d99-8f06-e925722733d7",
+              "target": "data_query",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "acfd5f29-f334-4283-8d12-a6f9281cc9d1",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "actionId": "control-component",
+                "alertType": "info",
+                "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
                 "componentSpecificActionHandle": "appendHistory",
                 "componentSpecificActionParams": [
                   {
@@ -683,33 +747,33 @@
                   }
                 ]
               },
-              "sourceId": "15389299-8d6d-4337-ba8b-1bac2067eec3",
+              "sourceId": "e63188b2-0388-4c71-a6ef-f5ee33f290b3",
               "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:50:31.038Z",
-              "updatedAt": "2025-05-23T11:51:11.347Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "81b7bec2-d035-41ac-9a46-fc4997ce1a05",
+              "id": "008da796-6608-4841-bb81-3de49cf93d72",
               "name": "onDataQuerySuccess",
               "index": 2,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "8c797805-951d-4f5a-8034-f8d756375e53",
+                "queryId": "4109c9b0-e4aa-4d99-8f06-e925722733d7",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "slack-format",
                 "parameters": {}
               },
-              "sourceId": "15389299-8d6d-4337-ba8b-1bac2067eec3",
+              "sourceId": "e63188b2-0388-4c71-a6ef-f5ee33f290b3",
               "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:51:14.551Z",
-              "updatedAt": "2025-05-23T11:56:02.186Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "0a4d3f43-7095-40a7-a1d1-84da88c3d049",
+              "id": "a67ad147-c1de-4c2b-8de5-ac9d8c180397",
               "name": "onDataQuerySuccess",
               "index": 1,
               "event": {
@@ -717,7 +781,7 @@
                 "message": "Hello world!",
                 "actionId": "control-component",
                 "alertType": "info",
-                "componentId": "00aec320-2dd6-4f88-adbb-ba9b7a68f50b",
+                "componentId": "445d8384-a6b2-4ebf-ab39-b9fa8e394de4",
                 "componentSpecificActionHandle": "appendHistory",
                 "componentSpecificActionParams": [
                   {
@@ -729,90 +793,16 @@
                   }
                 ]
               },
-              "sourceId": "15389299-8d6d-4337-ba8b-1bac2067eec3",
+              "sourceId": "e63188b2-0388-4c71-a6ef-f5ee33f290b3",
               "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:51:38.024Z",
-              "updatedAt": "2025-05-23T12:07:44.213Z"
-            },
-            {
-              "id": "0718afdc-d83a-4756-a7dd-474c90a00091",
-              "name": "onDataQuerySuccess",
-              "index": 1,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "a6fa5833-7657-47dd-85fc-0677044515d9",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "slack1",
-                "parameters": {}
-              },
-              "sourceId": "8c797805-951d-4f5a-8034-f8d756375e53",
-              "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:55:36.786Z",
-              "updatedAt": "2025-05-23T11:56:10.273Z"
-            },
-            {
-              "id": "6756cae5-f822-4751-af92-96724924ea49",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "ec1bc793-77d0-4e7b-9921-89b57c48b4a1",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "restapi2",
-                "parameters": {}
-              },
-              "sourceId": "65a094ca-472c-4371-9abc-c0cd6954bd7b",
-              "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T12:43:40.308Z",
-              "updatedAt": "2025-05-23T12:48:31.064Z"
-            },
-            {
-              "id": "8ef1c9c1-000d-4c87-885a-f2ea093dcc66",
-              "name": "onDataQuerySuccess",
-              "index": 1,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "635b771f-869b-46b4-819e-de72468618df",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "email_format",
-                "parameters": {}
-              },
-              "sourceId": "941866a2-42e8-4e23-b968-7c1780806eb6",
-              "target": "data_query",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T13:03:45.726Z",
-              "updatedAt": "2025-05-23T13:04:16.101Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             }
           ],
           "dataQueries": [
             {
-              "id": "a6fa5833-7657-47dd-85fc-0677044515d9",
-              "name": "slack1",
-              "options": {
-                "transformationLanguage": "javascript",
-                "enableTransformation": false,
-                "operation": "send_message",
-                "channel": "C08U3B4SL2V",
-                "limit": "",
-                "cursor": "",
-                "message": "{{queries.8c797805-951d-4f5a-8034-f8d756375e53.data}}"
-              },
-              "dataSourceId": "381abfda-4e8d-41c3-a764-82aa449a5055",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-16T10:21:50.116Z",
-              "updatedAt": "2025-05-23T14:04:51.022Z"
-            },
-            {
-              "id": "ec1bc793-77d0-4e7b-9921-89b57c48b4a1",
+              "id": "c1064bd4-8c7f-471a-9c77-1bcee322393d",
               "name": "restapi2",
               "options": {
                 "method": "post",
@@ -845,40 +835,20 @@
                     ""
                   ]
                 ],
-                "json_body": "{\n  \"name\": \"{{queries.65a094ca-472c-4371-9abc-c0cd6954bd7b.data}}\"\n}",
+                "json_body": "{\n  \"name\": \"{{queries.a0d6ffa8-7748-499a-9402-058b25e2121e.data}}\"\n}",
                 "body_toggle": true,
                 "retry_network_errors": true,
                 "transformationLanguage": "javascript",
                 "enableTransformation": false,
                 "arrayValuesChanged": true
               },
-              "dataSourceId": "16569447-db25-41c9-99cf-cbc31c9fe99a",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T10:34:58.812Z",
-              "updatedAt": "2025-05-23T14:04:26.525Z"
+              "dataSourceId": "994df352-cc7f-49f4-8488-44fa1edfe267",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "941866a2-42e8-4e23-b968-7c1780806eb6",
-              "name": "chat_format",
-              "options": {
-                "encoding_format_M1": "float",
-                "encoding_format_M2": "float",
-                "encoding_format_M3": "float",
-                "transformationLanguage": "javascript",
-                "enableTransformation": false,
-                "operation": "chat",
-                "model": "gpt-4o",
-                "prompt": "I will give you the response from a github issue creation api i want you to format the response in good and short way in markdown format with the issue UR just get issue numbder from the response and append it in this url - \"https://github.com/priteshTJ/Slack/issues/\". Here is the response - {{JSON.stringify(queries.ec1bc793-77d0-4e7b-9921-89b57c48b4a1.data)}}\n\nMake sure you just give me issue link in markdown with some success masage. and do not add headers (##) just bold if you want to bold something",
-                "max_tokens": "1500",
-                "method": "get"
-              },
-              "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:15:42.811Z",
-              "updatedAt": "2025-05-23T14:04:39.484Z"
-            },
-            {
-              "id": "15389299-8d6d-4337-ba8b-1bac2067eec3",
+              "id": "e63188b2-0388-4c71-a6ef-f5ee33f290b3",
               "name": "smtp1",
               "options": {
                 "content_type": {
@@ -889,17 +859,17 @@
                 "from": "pritesh@tooljet.com",
                 "to": "pritesh@tooljet.com",
                 "from_name": "Pritesh",
-                "subject": "Issue created - {{queries.ec1bc793-77d0-4e7b-9921-89b57c48b4a1.data.output.title}}",
-                "textContent": "{{queries.635b771f-869b-46b4-819e-de72468618df.data}}"
+                "subject": "Issue created - {{queries.c1064bd4-8c7f-471a-9c77-1bcee322393d.data.output.title}}",
+                "textContent": "{{queries.4f1d516d-fac1-4dd7-9b99-8569e7c6d9a9.data}}"
               },
               "dataSourceId": "85b98e16-7a68-4c8d-8b5d-83b19918e681",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:38:08.581Z",
-              "updatedAt": "2025-05-23T14:04:46.133Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "635b771f-869b-46b4-819e-de72468618df",
-              "name": "email_format",
+              "id": "1121c338-1d38-409b-83bc-1585ee4afbe1",
+              "name": "chat_format",
               "options": {
                 "encoding_format_M1": "float",
                 "encoding_format_M2": "float",
@@ -908,17 +878,34 @@
                 "enableTransformation": false,
                 "operation": "chat",
                 "model": "gpt-4o",
-                "prompt": "I will give you the response from a github issue creation api i want you to format the response in good way. just get issue numbder from the response and append it in this url - \"https://github.com/priteshTJ/Slack/issues/\". Here is the response - {{JSON.stringify(queries.ec1bc793-77d0-4e7b-9921-89b57c48b4a1.data)}}\n\nThis will be the email body so frame it accordingly. Dont't use markdown It is just a body so just give me the body content that's it. Make it little detailed",
+                "prompt": "I will give you the response from a github issue creation api i want you to format the response in good and short way in markdown format with the issue UR just get issue numbder from the response and append it in this url - \"https://github.com/priteshTJ/Slack/issues/\". Here is the response - {{JSON.stringify(queries.c1064bd4-8c7f-471a-9c77-1bcee322393d.data)}}\n\nMake sure you just give me issue link in markdown with some success masage. and do not add headers (##) just bold if you want to bold something",
                 "max_tokens": "1500",
                 "method": "get"
               },
               "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:39:31.940Z",
-              "updatedAt": "2025-05-23T14:04:41.827Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "8c797805-951d-4f5a-8034-f8d756375e53",
+              "id": "71dd030d-b8b4-406a-868e-9c668881d978",
+              "name": "slack1",
+              "options": {
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "operation": "send_message",
+                "channel": "C08U3B4SL2V",
+                "limit": "",
+                "cursor": "",
+                "message": "{{queries.4109c9b0-e4aa-4d99-8f06-e925722733d7.data}}"
+              },
+              "dataSourceId": "381abfda-4e8d-41c3-a764-82aa449a5055",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "4109c9b0-e4aa-4d99-8f06-e925722733d7",
               "name": "slack_format",
               "options": {
                 "encoding_format_M1": "float",
@@ -928,17 +915,37 @@
                 "enableTransformation": false,
                 "operation": "chat",
                 "model": "gpt-4o",
-                "prompt": "I will give you the response from a github issue creation api i want you to format the response in good and short way. just get issue numbder from the response and append it in this url - \"https://github.com/priteshTJ/Slack/issues/\". Here is the response - {{JSON.stringify(queries.ec1bc793-77d0-4e7b-9921-89b57c48b4a1.data)}}\n\nremembder that {{globals.currentUser.firstName}} has created the issue\n\nThis message will be to inform in slack channel so format it accordingly. Make it short and simple",
+                "prompt": "I will give you the response from a github issue creation api i want you to format the response in good and short way. just get issue numbder from the response and append it in this url - \"https://github.com/priteshTJ/Slack/issues/\". Here is the response - {{JSON.stringify(queries.c1064bd4-8c7f-471a-9c77-1bcee322393d.data)}}\n\nremembder that {{globals.currentUser.firstName}} has created the issue\n\nThis message will be to inform in slack channel so format it accordingly. Make it short and simple",
                 "max_tokens": "1500",
                 "method": "get"
               },
               "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T11:55:36.150Z",
-              "updatedAt": "2025-05-23T14:04:49.377Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "65a094ca-472c-4371-9abc-c0cd6954bd7b",
+              "id": "4f1d516d-fac1-4dd7-9b99-8569e7c6d9a9",
+              "name": "email_format",
+              "options": {
+                "encoding_format_M1": "float",
+                "encoding_format_M2": "float",
+                "encoding_format_M3": "float",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "operation": "chat",
+                "model": "gpt-4o",
+                "prompt": "I will give you the response from a github issue creation api i want you to format the response in good way. just get issue numbder from the response and append it in this url - \"https://github.com/priteshTJ/Slack/issues/\". Here is the response - {{JSON.stringify(queries.c1064bd4-8c7f-471a-9c77-1bcee322393d.data)}}\n\nThis will be the email body so frame it accordingly. Dont't use markdown It is just a body so just give me the body content that's it. Make it little detailed",
+                "max_tokens": "1500",
+                "method": "get"
+              },
+              "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "a0d6ffa8-7748-499a-9402-058b25e2121e",
               "name": "sanitize",
               "options": {
                 "encoding_format_M1": "float",
@@ -948,40 +955,40 @@
                 "enableTransformation": false,
                 "operation": "chat",
                 "model": "gpt-4o",
-                "prompt": "santitize and improve this response as this will to to the body of rest api. remove all single and doule quoites an just give response that it. this can be text from anyhere so keep the releavant informaiont and make it little detailed.i just need a string data remove any brakects if there are any. of any other format which is there.\n\nhere is the text - {{JSON.stringify(components.00aec320-2dd6-4f88-adbb-ba9b7a68f50b.lastMessage.message)}}",
+                "prompt": "santitize and improve this response as this will to to the body of rest api. remove all single and doule quoites an just give response that it. this can be text from anyhere so keep the releavant informaiont and make it little detailed.i just need a string data remove any brakects if there are any. of any other format which is there.\n\nhere is the text - {{JSON.stringify(components.445d8384-a6b2-4ebf-ab39-b9fa8e394de4.lastMessage.message)}}",
                 "max_tokens": "1500",
                 "method": "get"
               },
               "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "createdAt": "2025-05-23T12:43:39.536Z",
-              "updatedAt": "2025-05-23T14:04:24.938Z"
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             }
           ],
           "dataSources": [
             {
-              "id": "16569447-db25-41c9-99cf-cbc31c9fe99a",
+              "id": "994df352-cc7f-49f4-8488-44fa1edfe267",
               "name": "restapidefault",
               "kind": "restapi",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "36ba89d6-772a-4927-a395-bf18ed67ac9c",
+              "id": "0c1b0f77-2359-4d00-924d-be07da38bca9",
               "name": "tooljetdbdefault",
               "kind": "tooljetdb",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b474f058-1be4-44e3-bd60-a7d551c70841",
+              "appVersionId": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
               "id": "3a9b321a-978d-42d8-8328-540292cf416c",
@@ -996,18 +1003,6 @@
               "updatedAt": "2025-05-16T08:54:23.040Z"
             },
             {
-              "id": "381abfda-4e8d-41c3-a764-82aa449a5055",
-              "name": "slack test",
-              "kind": "slack",
-              "type": "default",
-              "pluginId": null,
-              "appVersionId": null,
-              "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
-              "scope": "global",
-              "createdAt": "2024-12-12T15:16:27.326Z",
-              "updatedAt": "2025-05-16T10:23:26.103Z"
-            },
-            {
               "id": "85b98e16-7a68-4c8d-8b5d-83b19918e681",
               "name": "gmail-smtp",
               "kind": "smtp",
@@ -1017,13 +1012,25 @@
               "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
               "scope": "global",
               "createdAt": "2025-03-18T17:22:04.975Z",
-              "updatedAt": "2025-03-25T05:52:53.666Z"
+              "updatedAt": "2025-05-23T15:51:06.574Z"
+            },
+            {
+              "id": "381abfda-4e8d-41c3-a764-82aa449a5055",
+              "name": "slack test",
+              "kind": "slack",
+              "type": "default",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
+              "scope": "global",
+              "createdAt": "2024-12-12T15:16:27.326Z",
+              "updatedAt": "2025-05-23T15:44:04.767Z"
             }
           ],
           "appVersions": [
             {
-              "id": "b474f058-1be4-44e3-bd60-a7d551c70841",
-              "name": "v2",
+              "id": "3b8daac5-a7b7-4d97-9589-dc0000b314f4",
+              "name": "v3",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -1035,14 +1042,21 @@
                 "backgroundFxQuery": "",
                 "appMode": "auto"
               },
-              "pageSettings": null,
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{true}}",
+                    "fxActive": false
+                  }
+                }
+              },
               "showViewerNavigation": true,
-              "homePageId": "a04f63e6-353a-47ee-a293-8f1eef336177",
+              "homePageId": "07c45550-9f9d-4382-8f61-c68ab1505e2d",
               "appId": "0122b596-26e4-41bd-bd4c-9792997faa07",
               "currentEnvironmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
               "promotedFrom": null,
-              "createdAt": "2025-05-16T07:07:36.095Z",
-              "updatedAt": "2025-05-23T15:42:37.371Z"
+              "createdAt": "2025-05-23T15:51:58.178Z",
+              "updatedAt": "2025-05-23T15:52:14.228Z"
             }
           ],
           "appEnvironments": [
@@ -1097,12 +1111,12 @@
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {
                 "access_type": {
-                  "value": "read",
+                  "value": "chat:write",
                   "encrypted": false
                 }
               },
               "createdAt": "2024-12-12T15:16:27.333Z",
-              "updatedAt": "2024-12-12T15:16:27.336Z"
+              "updatedAt": "2025-05-23T15:44:04.765Z"
             },
             {
               "id": "26e65524-ff21-43b4-ab63-6658bc0af84c",
@@ -1130,6 +1144,14 @@
               "updatedAt": "2025-01-02T13:07:02.013Z"
             },
             {
+              "id": "56acf7c1-9189-402a-b2e6-e8b357e265a7",
+              "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": {},
+              "createdAt": "2025-01-02T13:07:02.009Z",
+              "updatedAt": "2025-01-02T13:07:02.018Z"
+            },
+            {
               "id": "44472494-ea3d-4290-ae44-f04726ef5b21",
               "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
@@ -1141,39 +1163,6 @@
               },
               "createdAt": "2025-01-02T13:07:02.009Z",
               "updatedAt": "2025-05-16T08:54:23.039Z"
-            },
-            {
-              "id": "56acf7c1-9189-402a-b2e6-e8b357e265a7",
-              "dataSourceId": "3a9b321a-978d-42d8-8328-540292cf416c",
-              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
-              "options": {},
-              "createdAt": "2025-01-02T13:07:02.009Z",
-              "updatedAt": "2025-01-02T13:07:02.018Z"
-            },
-            {
-              "id": "72fed804-92d8-44e6-877b-540ce86dd942",
-              "dataSourceId": "85b98e16-7a68-4c8d-8b5d-83b19918e681",
-              "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
-              "options": {
-                "host": {
-                  "value": "localhost",
-                  "encrypted": false
-                },
-                "port": {
-                  "value": 465,
-                  "encrypted": false
-                },
-                "user": {
-                  "value": "",
-                  "encrypted": false
-                },
-                "password": {
-                  "credential_id": "9622c5e6-1fb3-4df5-8d69-a764d6d60bd9",
-                  "encrypted": true
-                }
-              },
-              "createdAt": "2025-03-18T17:22:04.982Z",
-              "updatedAt": "2025-03-18T17:22:04.988Z"
             },
             {
               "id": "4bbcee4a-5a41-43b1-bd32-5ec4b4e9ffbd",
@@ -1201,6 +1190,31 @@
               "updatedAt": "2025-03-18T17:22:04.997Z"
             },
             {
+              "id": "72fed804-92d8-44e6-877b-540ce86dd942",
+              "dataSourceId": "85b98e16-7a68-4c8d-8b5d-83b19918e681",
+              "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
+              "options": {
+                "host": {
+                  "value": "smtp.gmail.com",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 465,
+                  "encrypted": false
+                },
+                "user": {
+                  "value": "pritesh@tooljet.com",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "9622c5e6-1fb3-4df5-8d69-a764d6d60bd9",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2025-03-18T17:22:04.982Z",
+              "updatedAt": "2025-05-23T15:51:06.573Z"
+            },
+            {
               "id": "592fd98d-228f-4d45-bcc1-22e1b59eb273",
               "dataSourceId": "85b98e16-7a68-4c8d-8b5d-83b19918e681",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
@@ -1223,55 +1237,55 @@
                 }
               },
               "createdAt": "2025-03-18T17:22:04.982Z",
-              "updatedAt": "2025-03-25T05:52:53.664Z"
+              "updatedAt": "2025-05-23T15:51:00.005Z"
             },
             {
-              "id": "daf7f878-eed7-460f-bb72-88c52f7eedb4",
-              "dataSourceId": "36ba89d6-772a-4927-a395-bf18ed67ac9c",
-              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
-              "options": {},
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
-            },
-            {
-              "id": "7c49b5cb-20de-4429-b420-cb3de78e5bb7",
-              "dataSourceId": "16569447-db25-41c9-99cf-cbc31c9fe99a",
+              "id": "cf17d3d6-068c-4f78-bdd1-4f67d1d52ce6",
+              "dataSourceId": "994df352-cc7f-49f4-8488-44fa1edfe267",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "bc5099c0-7fe3-4959-851c-079c68082764",
-              "dataSourceId": "16569447-db25-41c9-99cf-cbc31c9fe99a",
+              "id": "79bab864-715e-4f10-ae82-c6b9534a3db6",
+              "dataSourceId": "0c1b0f77-2359-4d00-924d-be07da38bca9",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "e9458fee-fa1f-4dc8-a395-9a4434f45b2f",
-              "dataSourceId": "16569447-db25-41c9-99cf-cbc31c9fe99a",
-              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
-              "options": {},
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
-            },
-            {
-              "id": "9de3a039-6cbc-482b-8208-17a72e8b8ef6",
-              "dataSourceId": "36ba89d6-772a-4927-a395-bf18ed67ac9c",
+              "id": "78db0f0e-b90c-493b-9598-2c63389f4473",
+              "dataSourceId": "0c1b0f77-2359-4d00-924d-be07da38bca9",
               "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
               "options": {},
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             },
             {
-              "id": "5378f47d-171e-4e28-891c-fa91bc18cc3c",
-              "dataSourceId": "36ba89d6-772a-4927-a395-bf18ed67ac9c",
+              "id": "44e34937-53eb-4895-a952-77da54168dfe",
+              "dataSourceId": "994df352-cc7f-49f4-8488-44fa1edfe267",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": {},
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "571c3754-a2d4-419f-8899-a02820007e0d",
+              "dataSourceId": "994df352-cc7f-49f4-8488-44fa1edfe267",
               "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
               "options": {},
-              "createdAt": "2025-05-16T07:07:36.053Z",
-              "updatedAt": "2025-05-16T07:07:36.053Z"
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
+            },
+            {
+              "id": "b95fb736-ed46-428f-82b3-f49492e3718c",
+              "dataSourceId": "0c1b0f77-2359-4d00-924d-be07da38bca9",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": {},
+              "createdAt": "2025-05-23T15:51:58.135Z",
+              "updatedAt": "2025-05-23T15:51:58.135Z"
             }
           ],
           "schemaDetails": {
