@@ -1,0 +1,752 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "393f9cf3-5a50-476f-b601-4e770fcf7fc3",
+          "name": "py",
+          "slug": "393f9cf3-5a50-476f-b601-4e770fcf7fc3",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "sentfast",
+          "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
+          "currentVersionId": null,
+          "userId": "59ed4eec-9be7-4369-8788-c0e82b428cbc",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2025-06-03T08:00:22.164Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-06-03T08:00:22.145Z",
+          "editingVersion": {
+            "id": "b5a8e308-c163-48f0-a7b5-00196061286a",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "pageSettings": null,
+            "showViewerNavigation": true,
+            "homePageId": "504ea698-eb22-4b97-88c5-453bbf47e98f",
+            "appId": "393f9cf3-5a50-476f-b601-4e770fcf7fc3",
+            "currentEnvironmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+            "promotedFrom": null,
+            "createdAt": "2025-06-03T08:00:22.175Z",
+            "updatedAt": "2025-06-10T09:11:26.878Z"
+          },
+          "components": [
+            {
+              "id": "31591c36-2756-4e0f-8a82-481e491ae15e",
+              "name": "table1",
+              "type": "Table",
+              "pageId": "504ea698-eb22-4b97-88c5-453bbf47e98f",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "data": {
+                  "value": "{{ [ \n\t\t{ id: 1, name: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2022', mobile_number: 9876543210, interest: ['Reading', 'Traveling','Photography'], photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n\t\t id: 2, name: 'Liam Patel', email: 'liam.patel@example.com', date: '20/09/2021', mobile_number: 8765432109, interest: ['Cooking','Gardening','Hiking'], photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n\t\t{ id: 3, name: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '01/01/2023', mobile_number: 7654321098, interest: ['Music','Dancing','Crafting'], photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n\t\t{ id: 4, name: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '10/11/2022', mobile_number: 6543210987, interest: ['Reading', 'Traveling', 'Volunteering'], photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n\t\t{ id: 5, name: 'William Sanchez', email: 'william.sanchez@example.com', date: '07/01/2021', mobile_number: 4321098765, interest: ['Music', 'Dancing', 'Hiking'], photo: 'https://reqres.in/img/faces/4-image.jpg' }, \n\t\t{ id: 6, name: 'Ethan Morales', email: 'ethan.morales@example.com', date: '05/11/2021', mobile_number: 2109876543, interest: ['Cooking', 'Traveling', 'Photography'], photo: 'https://reqres.in/img/faces/6-image.jpg' }, \n\t\t{ id: 7, name: 'Mia Tiana', email: 'mia.tiana@example.com', date: '21/11/2022', mobile_number: 1098705217, interest: ['Music', 'Gardening', 'Hiking'], photo: 'https://reqres.in/img/faces/2-image.jpg' }, \n\t\t{ id: 8, name: 'Lucas Ramirez', email: 'lucas.ramirez@example.com', date: '31/03/2023', mobile_number: 9876543210, interest: ['Reading', 'Dancing', 'Crafting'], photo: 'https://reqres.in/img/faces/9-image.jpg' }, \n\t\t{ id: 9, name: 'Alexander Vela', email: 'alexander.vela@example.com', date: '07/09/2022', mobile_number: 7654321098, interest: ['Music','Gardening','Photography'], photo: 'https://reqres.in/img/faces/8-image.jpg' }, \n\t\t{ id: 10, name: 'Michael Reyes', email: 'michael.reyes@example.com', date: '25/12/2021', mobile_number: 5432109876, interest: ['Cooking','Crafting','Volunteering'], photo: 'https://reqres.in/img/faces/10-image.jpg' } \n] }}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "name": "id",
+                      "id": "e3ecbf7fa52c4d7210a93edb8f43776267a489bad52bd108be9588f790126737",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 30,
+                      "columnType": "string"
+                    },
+                    {
+                      "name": "photo",
+                      "key": "photo",
+                      "id": "f23b7d134b2e490ea41e3bb8eeb8c8e37472af243bf6b70d5af294482097e3a2",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnType": "image",
+                      "objectFit": "contain",
+                      "borderRadius": "100",
+                      "columnSize": 70
+                    },
+                    {
+                      "name": "name",
+                      "id": "5d2a3744a006388aadd012fcc15cc0dbcb5f9130e0fbb64c558561c97118754a",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 130,
+                      "columnType": "string"
+                    },
+                    {
+                      "name": "email",
+                      "id": "afc9a5091750a1bd4760e38760de3b4be11a43452ae8ae07ce2eebc569fe9a7f",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 230,
+                      "columnType": "string"
+                    },
+                    {
+                      "name": "date",
+                      "id": "27b75c8af9d34d1eaa1f9bb7f8f9f7b0abf1823e799748c8bb57e74f53b2c1dc",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnType": "datepicker",
+                      "isTimeChecked": false,
+                      "dateFormat": "DD/MM/YYYY",
+                      "parseDateFormat": "DD/MM/YYYY",
+                      "isDateSelectionEnabled": true,
+                      "columnSize": 130
+                    },
+                    {
+                      "name": "mobile_number",
+                      "id": "9c2e3c40572a4aefb8e179ee39a0e1ac9dc2b2e6634be56e1c05be13c3d1de56",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnType": "number",
+                      "columnSize": 140
+                    },
+                    {
+                      "name": "interest",
+                      "key": "interest",
+                      "id": "f23b7d134b2e490ea41e3bb8eeb8c8e37472af243bf6b70d5af294482097e3a1",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnType": "newMultiSelect",
+                      "columnSize": 300,
+                      "options": [
+                        {
+                          "label": "Reading",
+                          "value": "Reading"
+                        },
+                        {
+                          "label": "Traveling",
+                          "value": "Traveling"
+                        },
+                        {
+                          "label": "Photography",
+                          "value": "Photography"
+                        },
+                        {
+                          "label": "Music",
+                          "value": "Music"
+                        },
+                        {
+                          "label": "Cooking",
+                          "value": "Cooking"
+                        },
+                        {
+                          "label": "Crafting",
+                          "value": "Crafting"
+                        },
+                        {
+                          "label": "Voluntering",
+                          "value": "Voluntering"
+                        },
+                        {
+                          "label": "Garndening",
+                          "value": "Garndening"
+                        },
+                        {
+                          "label": "Dancing",
+                          "value": "Dancing"
+                        },
+                        {
+                          "label": "Hiking",
+                          "value": "Hiking"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-06-10T09:11:09.631Z",
+              "updatedAt": "2025-06-10T09:11:14.816Z",
+              "layouts": [
+                {
+                  "id": "7c4cd378-5028-4ed5-82c0-8f66cbbb3690",
+                  "type": "mobile",
+                  "top": 100,
+                  "left": 12,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "31591c36-2756-4e0f-8a82-481e491ae15e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-06-10T09:11:09.631Z"
+                },
+                {
+                  "id": "367329aa-5fe0-4e3a-93a1-f4f3bc720913",
+                  "type": "desktop",
+                  "top": 90,
+                  "left": 6,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "31591c36-2756-4e0f-8a82-481e491ae15e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-06-10T09:11:11.097Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "504ea698-eb22-4b97-88c5-453bbf47e98f",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "icon": null,
+              "createdAt": "2025-06-03T08:00:22.145Z",
+              "updatedAt": "2025-06-03T08:00:26.188Z",
+              "autoComputeLayout": true,
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [],
+          "dataQueries": [
+            {
+              "id": "b58e7e10-8570-4d03-9963-3b1ac705d8d4",
+              "name": "installModules",
+              "options": {
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "code": "import micropip\nawait micropip.install('pandas')\nawait micropip.install('numpy')"
+              },
+              "dataSourceId": "63907556-e3fe-4d24-8683-6fa8e31bc8b2",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-03T08:00:36.378Z",
+              "updatedAt": "2025-06-03T08:00:55.604Z"
+            },
+            {
+              "id": "7c8b0f30-a43b-406f-9de8-20f3989184cd",
+              "name": "runjs1",
+              "options": {
+                "code": "function addScript(src) {\n  return new Promise((resolve, reject) => {\n    const scriptTag = document.createElement('script');\n    scriptTag.setAttribute('src', src);\n    scriptTag.addEventListener('load', resolve);\n    scriptTag.addEventListener('error', reject);\n    document.body.appendChild(scriptTag);\n  });\n}\n\ntry {\n  await addScript('https://cdn.jsdelivr.net/npm/compromise@13.11.3/builds/compromise.min.js');\n  await addScript('https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js');\n  await actions.showAlert(\"success\", 'Compromise and PapaParse imported');\n} catch (error) {\n  console.error(error);\n}",
+                "parameters": []
+              },
+              "dataSourceId": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-05T04:33:32.372Z",
+              "updatedAt": "2025-06-05T04:42:33.089Z"
+            },
+            {
+              "id": "299349e0-fd22-4872-be51-3b76d501c6a2",
+              "name": "extractTags",
+              "options": {
+                "code": "const notes = nlp('Met with John, Priya, and Marcus from the marketing team on Thursday. Discussed launch strategy for the Q3 campaign. Priya will draft the blog post by next Tuesday. John to prepare budget estimates. Marcus will handle email outreach by Friday. Next sync on July 10th.');\n\nconst people = notes.people().out('array');\nconst action = notes.sentences().filter(s => s.has('#Verb')).out('array');\n\nreturn { people, action };",
+                "parameters": []
+              },
+              "dataSourceId": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-05T04:33:41.823Z",
+              "updatedAt": "2025-06-05T05:05:06.033Z"
+            },
+            {
+              "id": "09e1370e-e3c0-4fd0-b89c-fe24377b4846",
+              "name": "runjs2_copy",
+              "options": {
+                "code": "const csvData = `\nname,department,salary\nJohn,Engineering,100000\nJane,Marketing,90000\n`;\n\nconst result = Papa.parse(csvData, {\n  header: true,\n  skipEmptyLines: true\n});\n\nreturn result.data;",
+                "parameters": []
+              },
+              "dataSourceId": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-05T04:37:32.414Z",
+              "updatedAt": "2025-06-05T04:37:37.899Z"
+            },
+            {
+              "id": "22e06978-15d5-471f-afc5-fb3bd3714206",
+              "name": "getProducts",
+              "options": {
+                "method": "get",
+                "url": "{{constants.API_BASE_URL}}/products",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "cookies": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "retry_network_errors": true,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "arrayValuesChanged": false
+              },
+              "dataSourceId": "0f845528-fcfc-4afd-94ea-990a63345640",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-10T08:28:55.812Z",
+              "updatedAt": "2025-06-10T09:10:00.380Z"
+            },
+            {
+              "id": "8232888d-802b-4261-bd8c-9695b33018b4",
+              "name": "createEmbeddings",
+              "options": {
+                "encoding_format_M1": "float",
+                "encoding_format_M2": "float",
+                "encoding_format_M3": "float",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "operation": "generate_embedding",
+                "model_embedding": "text-embedding-3-large"
+              },
+              "dataSourceId": "306e71bb-6012-4226-9b6a-0eeb8b3a0feb",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-10T08:29:52.392Z",
+              "updatedAt": "2025-06-10T08:30:29.136Z"
+            },
+            {
+              "id": "d8c7dc18-1065-4a3f-8b50-e8c63e75a789",
+              "name": "improveResponse",
+              "options": {
+                "method": "post",
+                "url": "https://api.openai.com/v1/chat/completions",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "Content-Type",
+                    "application/json"
+                  ],
+                  [
+                    "Authorization",
+                    "Bearer {{secrets.OPENAI_API_KEY}}"
+                  ]
+                ],
+                "cookies": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "retry_network_errors": true,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "arrayValuesChanged": true
+              },
+              "dataSourceId": "0f845528-fcfc-4afd-94ea-990a63345640",
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "createdAt": "2025-06-10T08:31:30.878Z",
+              "updatedAt": "2025-06-10T08:59:06.772Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "63907556-e3fe-4d24-8683-6fa8e31bc8b2",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-06-03T08:00:36.288Z",
+              "updatedAt": "2025-06-03T08:00:36.288Z"
+            },
+            {
+              "id": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-06-05T04:33:32.300Z",
+              "updatedAt": "2025-06-05T04:33:32.300Z"
+            },
+            {
+              "id": "0f845528-fcfc-4afd-94ea-990a63345640",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-06-10T08:28:55.734Z",
+              "updatedAt": "2025-06-10T08:28:55.734Z"
+            },
+            {
+              "id": "306e71bb-6012-4226-9b6a-0eeb8b3a0feb",
+              "name": "OpenAI",
+              "kind": "openai",
+              "type": "default",
+              "pluginId": "29413dc3-369a-4c21-a065-3a8a8adf763e",
+              "appVersionId": null,
+              "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
+              "scope": "global",
+              "createdAt": "2025-05-09T08:27:55.751Z",
+              "updatedAt": "2025-05-09T08:27:55.751Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "b5a8e308-c163-48f0-a7b5-00196061286a",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "pageSettings": null,
+              "showViewerNavigation": true,
+              "homePageId": "504ea698-eb22-4b97-88c5-453bbf47e98f",
+              "appId": "393f9cf3-5a50-476f-b601-4e770fcf7fc3",
+              "currentEnvironmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "promotedFrom": null,
+              "createdAt": "2025-06-03T08:00:22.175Z",
+              "updatedAt": "2025-06-10T09:11:26.878Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "a3009eef-6b44-4923-a55f-c0f10895be13",
+              "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-05-16T10:01:08.963Z",
+              "updatedAt": "2024-05-16T10:01:08.963Z"
+            },
+            {
+              "id": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-05-16T10:01:08.963Z",
+              "updatedAt": "2024-05-16T10:01:08.963Z"
+            },
+            {
+              "id": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
+              "organizationId": "3695795b-71c8-4096-8feb-fa2ff3104b02",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-05-16T10:01:08.963Z",
+              "updatedAt": "2024-05-16T10:01:08.963Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "8b461508-ef8c-4959-b049-cf1bf5fa4063",
+              "dataSourceId": "306e71bb-6012-4226-9b6a-0eeb8b3a0feb",
+              "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
+              "options": {
+                "apiKey": {
+                  "credential_id": "9abbf664-f71e-458d-afa8-c4b5da001b75",
+                  "encrypted": true
+                },
+                "organizationId": {
+                  "value": "",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2025-05-09T08:27:55.974Z",
+              "updatedAt": "2025-05-09T08:27:55.974Z"
+            },
+            {
+              "id": "4a59f0f9-db13-4605-b269-4daf0fb2964d",
+              "dataSourceId": "306e71bb-6012-4226-9b6a-0eeb8b3a0feb",
+              "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
+              "options": {
+                "apiKey": {
+                  "credential_id": "0d5ccc14-4e87-4fb7-bd38-90a9575701e8",
+                  "encrypted": true
+                },
+                "organizationId": {
+                  "value": "",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2025-05-09T08:27:55.977Z",
+              "updatedAt": "2025-05-09T08:27:55.977Z"
+            },
+            {
+              "id": "76cae772-92fd-49e8-9d5e-352b4cae1602",
+              "dataSourceId": "306e71bb-6012-4226-9b6a-0eeb8b3a0feb",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": {
+                "apiKey": {
+                  "credential_id": "6393989e-d294-4e91-9ff0-ff75629c3fa1",
+                  "encrypted": true
+                },
+                "organizationId": {
+                  "value": "",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2025-05-09T08:27:55.988Z",
+              "updatedAt": "2025-05-09T08:27:55.988Z"
+            },
+            {
+              "id": "66d9e987-c135-4a5f-bc2f-94f9cb873ffa",
+              "dataSourceId": "63907556-e3fe-4d24-8683-6fa8e31bc8b2",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": null,
+              "createdAt": "2025-06-03T08:00:36.295Z",
+              "updatedAt": "2025-06-03T08:00:36.295Z"
+            },
+            {
+              "id": "9ba30211-9045-4752-b30f-9e3b5a15c781",
+              "dataSourceId": "63907556-e3fe-4d24-8683-6fa8e31bc8b2",
+              "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
+              "options": null,
+              "createdAt": "2025-06-03T08:00:36.295Z",
+              "updatedAt": "2025-06-03T08:00:36.295Z"
+            },
+            {
+              "id": "2cf4991b-ac56-49dc-b33b-5777842e0b59",
+              "dataSourceId": "63907556-e3fe-4d24-8683-6fa8e31bc8b2",
+              "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
+              "options": null,
+              "createdAt": "2025-06-03T08:00:36.295Z",
+              "updatedAt": "2025-06-03T08:00:36.295Z"
+            },
+            {
+              "id": "bbfaa8b0-5dc6-4f5f-a274-24da025fd457",
+              "dataSourceId": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
+              "options": null,
+              "createdAt": "2025-06-05T04:33:32.306Z",
+              "updatedAt": "2025-06-05T04:33:32.306Z"
+            },
+            {
+              "id": "c188474a-fd7a-4933-a537-8daf46cad422",
+              "dataSourceId": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": null,
+              "createdAt": "2025-06-05T04:33:32.306Z",
+              "updatedAt": "2025-06-05T04:33:32.306Z"
+            },
+            {
+              "id": "13c223f2-9461-49c9-99e6-9495c63319b1",
+              "dataSourceId": "9b9bd10c-566a-4627-97e6-fcb9e732a42f",
+              "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
+              "options": null,
+              "createdAt": "2025-06-05T04:33:32.306Z",
+              "updatedAt": "2025-06-05T04:33:32.306Z"
+            },
+            {
+              "id": "2d581387-5a64-4842-864c-d469ec844001",
+              "dataSourceId": "0f845528-fcfc-4afd-94ea-990a63345640",
+              "environmentId": "06a6e43d-f043-4549-88f4-142ce47abcea",
+              "options": null,
+              "createdAt": "2025-06-10T08:28:55.741Z",
+              "updatedAt": "2025-06-10T08:28:55.741Z"
+            },
+            {
+              "id": "e6cd7789-2050-43a3-8ae6-4039e60e84a8",
+              "dataSourceId": "0f845528-fcfc-4afd-94ea-990a63345640",
+              "environmentId": "bf63999e-1c3f-418a-9d27-ff303a7812b5",
+              "options": null,
+              "createdAt": "2025-06-10T08:28:55.741Z",
+              "updatedAt": "2025-06-10T08:28:55.741Z"
+            },
+            {
+              "id": "d14a6490-c9f5-429a-adb4-f57d399b24aa",
+              "dataSourceId": "0f845528-fcfc-4afd-94ea-990a63345640",
+              "environmentId": "a3009eef-6b44-4923-a55f-c0f10895be13",
+              "options": null,
+              "createdAt": "2025-06-10T08:28:55.741Z",
+              "updatedAt": "2025-06-10T08:28:55.741Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.5.39-cloud-lts"
+}
