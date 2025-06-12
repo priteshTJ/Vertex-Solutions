@@ -41,10 +41,10 @@
   },
   "e14f00ef-af25-4cd2-9684-55c3b1e07042": {
     "gitAppName": "devrelboard",
-    "lastCommitMessage": " v1 Version of app devrelboard promoted from development to staging",
-    "gitVersionId": "cfd60ec8-d4b7-4c21-ab91-0b49eff94bab",
-    "lastpushDate": "2025-06-12T12:11:29.274Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v2 Version of app devrelboard promoted from development to staging",
+    "gitVersionId": "48814ad6-1b8d-4521-8297-7c98ce42850b",
+    "lastpushDate": "2025-06-12T12:13:59.674Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "pritesh "
   }
 }
